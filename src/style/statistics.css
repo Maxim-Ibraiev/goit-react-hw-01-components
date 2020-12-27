@@ -1,0 +1,51 @@
+.statistics {
+  max-width: 300px;
+  height: 130px;
+  margin-top: 30px;
+}
+
+.statistics .title {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+    
+  background: #fff;
+  
+  color: gray;
+}
+
+.statistics .stat-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50%;
+
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.statistics .stat-list li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+  width: 100%;
+  height: 100%; 
+  /* border: gray solid 4px; */
+}
+
+/* .statistics .stat-list li:nth-child(1n) {background-color: rgb(0, 139, 163);}
+.statistics .stat-list li:nth-child(2n) {background-color: rgb(0, 58, 167);}
+.statistics .stat-list li:nth-child(3n) {background-color: rgb(17, 143, 0);}
+.statistics .stat-list li:nth-child(4n) {background-color: rgb(192, 0, 32);}
+.statistics .stat-list li:nth-child(5n) {background-color: rgb(170, 153, 0);} */
+
+.label, .percentage {
+  color: #fff;
+}

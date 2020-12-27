@@ -1,0 +1,5 @@
+@import './style/basic.css';
+@import './style/user.css';
+@import './style/statistics.css';
+@import './style/friend.css';
+@import './style/transaction.css'
