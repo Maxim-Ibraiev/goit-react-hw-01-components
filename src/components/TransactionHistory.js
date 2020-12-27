@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-function TransactionHistory({item}) {
+function TransactionHistory({ item }) {
   
   return (
     <table className="transaction-history">
@@ -14,7 +14,6 @@ function TransactionHistory({item}) {
 
       <tbody>
         {item.map(({ id, type, amount, currency }) => {
-
           return (
             <tr key={id}>
               <td>{type}</td>
@@ -28,4 +27,4 @@ function TransactionHistory({item}) {
   );
 }
 
-export default TransactionHistory
+export default TransactionHistory;

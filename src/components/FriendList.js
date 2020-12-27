@@ -2,7 +2,6 @@ function FriendList({ friends }) {
   return (
     <ul className="friend-list">
       {friends.map(({ avatar, name, isOnline, id }) => {
-
         return (
           <li className="item" key={id}>
             <span

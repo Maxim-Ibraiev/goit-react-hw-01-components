@@ -9,13 +9,15 @@ function Statistics({ stats }) {
 
         <ul className="stat-list">
           {stats.map(({ id, label, percentage }) => {
-
             return (
               <li
                 className="item"
                 key={id}
                 style={{
-                  background: `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})` }}
+                  background: `rgb(${Math.random() * 255}, ${
+                    Math.random() * 255
+                  }, ${Math.random() * 255})`,
+                }}
               >
                 <span className="label">{label}</span>
                 <span className="percentage">{percentage}%</span>

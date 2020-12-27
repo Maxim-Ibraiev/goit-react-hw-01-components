@@ -1,15 +1,13 @@
 .transaction-history {
   width: 900px;
 
-  margin-left: 30px;
-  
-  box-shadow: 1px 1px 9px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
-.transaction-history th{
- height: 60px;
-  
+.transaction-history th {
+  height: 60px;
+
   background: rgb(0, 185, 209);
 }
 .transaction-history tr {

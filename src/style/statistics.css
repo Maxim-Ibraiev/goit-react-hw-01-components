@@ -8,13 +8,13 @@
   margin: 0;
   padding-top: 20px;
   padding-bottom: 20px;
-  
+
   text-align: center;
   text-transform: uppercase;
   font-size: 20px;
-    
+
   background: #fff;
-  
+
   color: gray;
 }
 
@@ -34,9 +34,9 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  
+
   width: 100%;
-  height: 100%; 
+  height: 100%;
   /* border: gray solid 4px; */
 }
 
@@ -46,6 +46,7 @@
 .statistics .stat-list li:nth-child(4n) {background-color: rgb(192, 0, 32);}
 .statistics .stat-list li:nth-child(5n) {background-color: rgb(170, 153, 0);} */
 
-.label, .percentage {
+.label,
+.percentage {
   color: #fff;
 }

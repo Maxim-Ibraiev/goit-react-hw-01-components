@@ -5,8 +5,8 @@ import FriendList from './FriendList';
 import TransactionHistory from './TransactionHistory';
 import { name, tag, location, avatar, stats } from '../data/user.json';
 import statisticalData from '../data/statistical-data.json';
-import friends from '../data/friends.json'
-import transactions from '../data/transactions.json'
+import friends from '../data/friends.json';
+import transactions from '../data/transactions.json';
 
 export default function App() {
   return (
@@ -22,15 +22,15 @@ export default function App() {
       </section>
 
       <section>
-      <Statistics  stats={statisticalData} />;
+        <Statistics stats={statisticalData} />
       </section>
 
       <section>
-      <FriendList friends={friends} />
+        <FriendList friends={friends} />
       </section>
 
       <section>
-      <TransactionHistory item={transactions} />
+        <TransactionHistory item={transactions} />
       </section>
     </>
   );

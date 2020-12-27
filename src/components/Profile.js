@@ -2,14 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Profile({ name, tag, location, avatar, stats }) {
-
   return (
     <div className="profile">
       <div className="description">
-        <img src={avatar} alt="Аватар пользователя" className="avatar" width="100px" />
+        <img
+          src={avatar}
+          alt="Аватар пользователя"
+          className="avatar"
+          width="100px"
+        />
         <p className="name">{name}</p>
         <p className="tag">@{tag}</p>
-        <p className="location">{location}</p>  
+        <p className="location">{location}</p>
       </div>
 
       <ul className="stats">
@@ -30,9 +34,10 @@ function Profile({ name, tag, location, avatar, stats }) {
   );
 }
 
-Profile.defaultProps  = {
-  avatar: 'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortCurly&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'
-}
+Profile.defaultProps = {
+  avatar:
+    'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortCurly&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light',
+};
 
 Profile.PropType = {
   name: PropTypes.string.isRequired,
@@ -42,7 +47,8 @@ Profile.PropType = {
   stats: PropTypes.exact({
     followers: PropTypes.number,
     views: PropTypes.number,
-    likes: PropTypes.number
-  }), }
+    likes: PropTypes.number,
+  }),
+};
 
-export default Profile
+export default Profile;
