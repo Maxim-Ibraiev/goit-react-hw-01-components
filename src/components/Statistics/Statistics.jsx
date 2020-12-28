@@ -5,7 +5,7 @@ function Statistics({ stats, title }) {
   return (
     <>
       <section className="statistics">
-        <h2 className="title">{title?title: 'Upload stats'}</h2>
+        <h2 className="title">{title}</h2>
 
         <ul className="stat-list">
           {stats.map(({ id, label, percentage }) => {
@@ -30,7 +30,7 @@ function Statistics({ stats, title }) {
   );
 }
 
-Statistics.defaultProp = {
+Statistics.defaultProps = {
   title: 'Upload stats',
 };
 
