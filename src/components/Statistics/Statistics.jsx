@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Statistics({ stats }) {
+function Statistics({ stats, title }) {
   return (
     <>
       <section className="statistics">
-        <h2 className="title">Upload stats</h2>
+        <h2 className="title">{title?title: 'Upload stats'}</h2>
 
         <ul className="stat-list">
           {stats.map(({ id, label, percentage }) => {
@@ -36,9 +36,9 @@ Statistics.defaultProp = {
 
 Statistics.PropType = {
   title: PropTypes.string,
-  id: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
-  percentage: PropTypes.number.isRequired,
+  id: PropTypes.string,
+  label: PropTypes.string,
+  percentage: PropTypes.number,
 };
 
 export default Statistics;

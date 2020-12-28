@@ -1,7 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function TransactionHistory({ item }) {
-  
   return (
     <table className="transaction-history">
       <thead>
@@ -26,5 +26,14 @@ function TransactionHistory({ item }) {
     </table>
   );
 }
+
+TransactionHistory.PropType = {
+  item: PropTypes.shape({
+    id: PropTypes.string,
+    type: PropTypes.string,
+    amount: PropTypes.string,
+    currency: PropTypes.string,
+  }),
+};
 
 export default TransactionHistory;
