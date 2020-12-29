@@ -5,7 +5,7 @@ function Statistics({ stats, title }) {
   return (
     <>
       <section className="statistics">
-        <h2 className="title">{title}</h2>
+        {title ? <h2 className="title">{title}</h2>: null}
 
         <ul className="stat-list">
           {stats.map(({ id, label, percentage }) => {
@@ -29,10 +29,6 @@ function Statistics({ stats, title }) {
     </>
   );
 }
-
-Statistics.defaultProps = {
-  title: 'Upload stats',
-};
 
 Statistics.PropType = {
   title: PropTypes.string,
