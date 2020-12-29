@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-01-components.git/static/css/main.98cc8acc.chunk.css",
-    "main.js": "/goit-react-hw-01-components.git/static/js/main.4712633c.chunk.js",
-    "main.js.map": "/goit-react-hw-01-components.git/static/js/main.4712633c.chunk.js.map",
-    "runtime-main.js": "/goit-react-hw-01-components.git/static/js/runtime-main.2e62c003.js",
-    "runtime-main.js.map": "/goit-react-hw-01-components.git/static/js/runtime-main.2e62c003.js.map",
-    "static/js/2.570c1188.chunk.js": "/goit-react-hw-01-components.git/static/js/2.570c1188.chunk.js",
-    "static/js/2.570c1188.chunk.js.map": "/goit-react-hw-01-components.git/static/js/2.570c1188.chunk.js.map",
-    "index.html": "/goit-react-hw-01-components.git/index.html",
-    "static/css/main.98cc8acc.chunk.css.map": "/goit-react-hw-01-components.git/static/css/main.98cc8acc.chunk.css.map",
-    "static/js/2.570c1188.chunk.js.LICENSE.txt": "/goit-react-hw-01-components.git/static/js/2.570c1188.chunk.js.LICENSE.txt"
+    "main.css": "/Maxim-Ibraiev/goit-react-hw-01-components.git/static/css/main.98cc8acc.chunk.css",
+    "main.js": "/Maxim-Ibraiev/goit-react-hw-01-components.git/static/js/main.4712633c.chunk.js",
+    "main.js.map": "/Maxim-Ibraiev/goit-react-hw-01-components.git/static/js/main.4712633c.chunk.js.map",
+    "runtime-main.js": "/Maxim-Ibraiev/goit-react-hw-01-components.git/static/js/runtime-main.620f8522.js",
+    "runtime-main.js.map": "/Maxim-Ibraiev/goit-react-hw-01-components.git/static/js/runtime-main.620f8522.js.map",
+    "static/js/2.570c1188.chunk.js": "/Maxim-Ibraiev/goit-react-hw-01-components.git/static/js/2.570c1188.chunk.js",
+    "static/js/2.570c1188.chunk.js.map": "/Maxim-Ibraiev/goit-react-hw-01-components.git/static/js/2.570c1188.chunk.js.map",
+    "index.html": "/Maxim-Ibraiev/goit-react-hw-01-components.git/index.html",
+    "static/css/main.98cc8acc.chunk.css.map": "/Maxim-Ibraiev/goit-react-hw-01-components.git/static/css/main.98cc8acc.chunk.css.map",
+    "static/js/2.570c1188.chunk.js.LICENSE.txt": "/Maxim-Ibraiev/goit-react-hw-01-components.git/static/js/2.570c1188.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2e62c003.js",
+    "static/js/runtime-main.620f8522.js",
     "static/js/2.570c1188.chunk.js",
     "static/css/main.98cc8acc.chunk.css",
     "static/js/main.4712633c.chunk.js"
