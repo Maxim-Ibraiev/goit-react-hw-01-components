@@ -11,19 +11,19 @@ import transactions from '../../data/transactions.json';
 export default function App() {
   return (
     <>
-        <Profile
-          name={name}
-          tag={tag}
-          location={location}
-          avatar={avatar}
-          stats={stats}
-        />
+      <Profile
+        name={name}
+        tag={tag}
+        location={location}
+        avatar={avatar}
+        stats={stats}
+      />
 
-        <Statistics stats={statisticalData} />
+      <Statistics stats={statisticalData} />
 
-        <FriendList friends={friends} />
+      <FriendList friends={friends} />
 
-        <TransactionHistory item={transactions} />
+      <TransactionHistory item={transactions} />
     </>
   );
 }
